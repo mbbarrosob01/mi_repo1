@@ -13,7 +13,7 @@ import streamlit as st
 criterion = "gini"
 
 # Cargar el conjunto de datos
-df = pd.read_csv("D:/Usuarios/mbbarrosob01/Desktop/3eval/clasificacion/atletas_1.csv")
+df = pd.read_csv("atletas_1.csv")
 
 # Eliminar valores faltantes
 df.dropna(inplace=True)
